@@ -42,21 +42,20 @@ class HomeScreen extends StatelessWidget {
             ),
           ),
         ),
-       const SliverAppBar(
+        const SliverAppBar(
           pinned: true,
           primary: false,
           elevation: 0,
-          backgroundColor:Color(0xffF8F9Fb),
+          backgroundColor: Color(0xff000000),
           toolbarHeight: 70,
           centerTitle: false,
           title: ProductRow(),
         ),
-
       ],
       // The content of the scroll view
       body: Container(
         color: AppColors.categoryColor.withOpacity(0.3),
-        child:  const ProductGrid(),
+        child: const ProductGrid(),
       ),
     );
   }

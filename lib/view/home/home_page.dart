@@ -46,7 +46,7 @@ class HomeScreen extends StatelessWidget {
           pinned: true,
           primary: false,
           elevation: 0,
-          backgroundColor: Color(0xffB0E000),
+          backgroundColor: Color(0xffB0E00E),
           toolbarHeight: 70,
           centerTitle: false,
           title: ProductRow(),
